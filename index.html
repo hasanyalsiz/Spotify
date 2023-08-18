@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="icon" type="image/x-icon" href="images/s.png" />
+  </head>
+  <body>
+    <aside>
+      <img src="/images/spotify.png" />
+      <nav>
+        <a href=""><i class="bi bi-house-fill"></i> <span>Anasayfa</span></a>
+        <a href=""> <i class="bi bi-search"></i> <span>Arama</span></a>
+        <a href=""
+          ><i class="bi bi-bookmarks-fill"></i><span>Kütüphanen</span></a
+        >
+        <a href="">
+          <i class="bi bi-music-note-list"></i>
+          <span>Çalma Listeleri</span></a
+        >
+        <a href="">
+          <i class="bi bi-heart-fill"></i><span>Beğenilen Şarkılar</span></a
+        >
+      </nav>
+    </aside>
+
+    <main>
+      <header>
+        <form>
+          <input placeholder="şarkı ismi aratın..." type="text" />
+          <button>Ara</button>
+        </form>
+        <label class="switch">
+          <input
+            class="switch__input"
+            type="checkbox"
+            role="switch"
+            id="toggle"
+          />
+          <span class="switch__handle">
+            <span class="switch__handle-sides">
+              <span class="switch__handle-side"></span>
+            </span>
+            <span class="switch__handle-labels">
+              <span class="switch__handle-label" aria-hidden="true">Off</span>
+              <span class="switch__handle-label" aria-hidden="true">On</span>
+            </span>
+            <span class="switch__handle-texture"></span>
+          </span>
+          <span class="switch__label">Power</span>
+        </label>
+
+        <ul>
+          <li>Premium</li>
+          <li>Destek</li>
+          <li>İndirmeler</li>
+          <li>KayıtOl</li>
+        </ul>
+      </header>
+
+      <div class="songs">
+        <h2>Türkiyede En Popüler</h2>
+
+        <div class="list"></div>
+      </div>
+    </main>
+
+    <div class="playing">
+      <div class="info"></div>
+
+      <audio controls>
+        <source src="" />
+      </audio>
+    </div>
+    <!-- js bağlantı -->
+    <script src="main.js" type="module"></script>    
+  </body>
+</html>
