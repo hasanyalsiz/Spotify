@@ -24,7 +24,7 @@ Copy code
 
 Bu proje, Shazam API'sini kullanarak müzikleri tanımlamak ve oynatmak için geliştirilmiş bir uygulamadır. Ayrıca, kullanıcı deneyimini geliştirmek için karanlık ve açık tema modları, müzik filtreleme özelliği ve görsel iyileştirmeler sunar.
 
-![Proje Örneği](screenshot.png)
+
 
 ## Özellikler
 
